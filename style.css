@@ -1,0 +1,55 @@
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
+}.botao {
+
+    font-family: "Crakra Petch", sans-serif;
+    background-color: var(color bla)
+    color: var(--);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 28px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cabecalho {
+        background-color: #424E61;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px 0;
+    }
+    
+    .cabecalho-imagem{
+        width: 20%;
+    }
+    
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        font-size: 24px;
+    }
+    
